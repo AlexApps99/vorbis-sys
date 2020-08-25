@@ -2,15 +2,15 @@
 name = "vorbis-sys"
 description = "FFI for the libvorbis library"
 license = "MIT"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Pierre Krieger <pierre.krieger1708@gmail.com>"]
 build = "libvorbis/build.rs"
 links = "vorbis"
 
 [dependencies]
-ogg-sys = "0.0.9"
-libc = "0.2.65"
+ogg-sys = "0.0.10"
+libc = "0.2.76"
 
 [build-dependencies]
-gcc = "0.3"
+cc = "1.0.59"
 pkg-config = "0.3"
